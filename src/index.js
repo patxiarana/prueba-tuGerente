@@ -5,7 +5,7 @@ import './models/Booking.js'
 
 async function main(){
     try{
-    await sequelize.sync({force: false})
+    await sequelize.sync({force: true})
     console.log('Connection has ben established succesfully')
 app.listen(5000)
 console.log('Server on port ', 5050)
