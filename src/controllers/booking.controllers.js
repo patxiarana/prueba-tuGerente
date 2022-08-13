@@ -18,13 +18,14 @@ res.status(500).json({mesage:error.mesage})
 export const createBooking = async (req, res) => {
     try{
 
-const {numberofdays, billingdata,identificationdata,amount,condition} = req.body
+const {numberofdays, billingdata,identificationdata,amount,condition,  roomdetail} = req.body
  const newBooking = await  Booking.create({
     numberofdays,
      billingdata,
      identificationdata,
      amount,
-     condition
+     condition,
+     roomdetail
     })
     res.json(newBooking)
 

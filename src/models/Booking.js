@@ -9,6 +9,9 @@ export const Booking = sequelize.define('bookings',{
         primaryKey: true,
         autoIncrement:true,
     },
+    roomdetail:{
+        type:DataTypes.STRING,
+    },
     numberofdays:{
         type:DataTypes.INTEGER,
     },
