@@ -2,6 +2,7 @@
 
    api realizada para la prueba de tu gerente.
 
+
 tecnologías usadas: node.js, PostgreSQL, sequelize, express, docker.
 
 
@@ -52,7 +53,10 @@ ejemplo en formato JSON de como sería esta petición.
      El tercer endopint es una petición get para poder ver todas las reservas 
      endpoint: http://localhost:5050/bookings.  
    
+      }
       
+      
+
  
 
         
